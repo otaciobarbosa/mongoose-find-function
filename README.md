@@ -3,15 +3,18 @@ Fonte: geeksforgeeks.org
 https://www.geeksforgeeks.org/mongoose-find-function/
 
 ## Os inserts estão no : db.users.insert.txt
+´´´
 db.users.insert( { name: "Punit", age: 0  } );
 db.users.insert( { name: "Punit", age: 10 } );
 db.users.insert( { name: "Punit", age: 20 } );
 db.users.insert( { name: "Punit", age: 30 } );
 db.users.insert( { name: "Punit", age: 40 } );
 db.users.insert( { name: "Punit", age: 50 } );
+´´´
 
 # Resultado das consultas:
 ## First function call : 
+´´´
 [
   {
     _id: new ObjectId("61803a57358c3eb3700e5b02"),
@@ -44,7 +47,10 @@ db.users.insert( { name: "Punit", age: 50 } );
     age: 50
   }
 ]
+´´´
+
 ## Second function call :  
+´´´
 [
   { _id: new ObjectId("61803a57358c3eb3700e5b02"), name: 'Punit' },
   { _id: new ObjectId("61803a8c358c3eb3700e5b03"), name: 'Punit' },
@@ -53,7 +59,10 @@ db.users.insert( { name: "Punit", age: 50 } );
   { _id: new ObjectId("61803aa4358c3eb3700e5b06"), name: 'Punit' },
   { _id: new ObjectId("61803aab358c3eb3700e5b07"), name: 'Punit' }
 ]
+´´´
+
 ## Third function call : 
+´´´
 [
   {
     _id: new ObjectId("61803a8c358c3eb3700e5b03"),
@@ -66,3 +75,4 @@ db.users.insert( { name: "Punit", age: 50 } );
     age: 20
   }
 ]
+´´´
