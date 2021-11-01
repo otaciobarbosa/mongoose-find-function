@@ -1,0 +1,6 @@
+db.users.insert( { name: "Punit", age: 0  } );
+db.users.insert( { name: "Punit", age: 10 } );
+db.users.insert( { name: "Punit", age: 20 } );
+db.users.insert( { name: "Punit", age: 30 } );
+db.users.insert( { name: "Punit", age: 40 } );
+db.users.insert( { name: "Punit", age: 50 } );
